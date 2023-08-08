@@ -2,16 +2,31 @@ body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
-header {
-  background-color: #333;
-  color: white;
-  padding: 1rem 0;
-  text-align: center;
+.header-right{
+  position: absolute;
+  right: 0;
+  top: 25px;
+  width: 15rem;
+  height: 8rem;
+}
+.header-phone{
+  position: absolute;
+  right: 0;
+  top: 155px;
+    width: 15rem;
+  height: 8rem;
+}
+.footer-info{
+  display: flex;
+  position: absolute;
+  right: 55px;
+  list-style: none;
+  gap: 15px;
 }
 .logo{
   border: 3px solid #f39c12;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
@@ -28,7 +43,6 @@ body {
 }
 .container {
   max-width: 1200px;
-
   margin: 0 auto;
   padding: 20px;
 }

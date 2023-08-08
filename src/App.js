@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import { BsInstagram, BsTwitter } from "react-icons/bs";
+
 
 // Diğer yemek resimlerini içe aktarın
 
@@ -66,6 +68,12 @@ const App = () => {
               alt='logo'
               className='logo'
             />
+            <img
+              src='https://www.ehaberajansi.com.tr/uploads/2020/03/21/222652_lokantalar-servis-ve-gel-ak-hizmeti-verebilecek.jpg'
+              alt=''
+              className='header-right'
+            />
+            <h3 className='header-phone'>0544 444 0000</h3>
           </div>
 
           <nav>
@@ -117,9 +125,30 @@ const App = () => {
               GAZİANTEP/ŞAHİNBEY{' '}
             </p>
             <a href='#' className='btn'>
-              {' '}
               ÖNERİ VE ŞİKAYET
             </a>
+            <div className='footer-info'>
+            <li>
+            <a
+              href="https://www.instagram.com/serkandemir.2/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+              <h4>Instagram</h4>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/serkandemir04"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsTwitter />
+              <h4>Twitter</h4>
+            </a>
+          </li>  
+            </div>
           </div>
         </div>
       </section>
