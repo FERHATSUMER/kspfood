@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import { BsInstagram, BsTwitter } from "react-icons/bs";
+import { BsInstagram,  } from "react-icons/bs";
+import { FaTiktok  } from "react-icons/fa";
+import { MdPhoneIphone  } from "react-icons/md";
 
 
 // Diğer yemek resimlerini içe aktarın
@@ -10,46 +12,46 @@ const App = () => {
     {
       image: 'https://images.deliveryhero.io/image/fd-tr/LH/qeb0-hero.jpg',
       title: 'Tavuk Döner',
-      description: 'Tavuk Döner açıklama',
+      description: '80 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez',
     },
     {
       image: 'https://images.deliveryhero.io/image/fd-tr/LH/t76e-hero.jpg',
-      title: 'Hamburger',
-      description: 'Yemek 2 açıklama...',
+      title: 'KSP EtBurger',
+      description: '200 Gr. Et + Patates + Domates + Kornişon + Marul + Sos + Soğan Halkası',
     },
     {
       image: 'https://images.deliveryhero.io/image/fd-tr/LH/w4tk-hero.jpg',
-      title: 'Kumru',
-      description: 'Yemek 2 açıklama...',
+      title: 'İzmir Sandeviç',
+      description: 'Domates + Kornişon + Sosis + Salam + Sucuk + Mozarella ',
     },
     {
       image:
-        'https://cdn.yemek.com/mnresize/1250/833/uploads/2021/12/patatesli-gozleme-one-cikan-yeni.jpg',
-      title: 'Gözleme',
-      description: 'Yemek 2 açıklama...',
+        'https://i.pinimg.com/736x/6b/cc/bd/6bccbd2eb4165c7cafb16d11bc54f4c5.jpg',
+      title: 'Mozarella Tavuk Dürüm',
+      description: '80 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos Mozarella',
     },
     {
       image:
-        'https://cdn.yemek.com/mnresize/1250/833/uploads/2021/03/firinda-tavuk-sis-asama-one-cikan.jpg',
-      title: 'Tavuk Şiş',
-      description: 'Yemek 2 açıklama...',
+        '',
+      title: 'Vejeteryan Dürüm',
+      description: 'Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos',
     },
     {
-      image:
-        'https://images.deliveryhero.io/image/fd-tr/LH/lgvp-hero.jpg?width=512&height=384&quality=45',
-      title: 'Kıyma',
-      description: 'Yemek 2 açıklama...',
+      image: 'https://images.deliveryhero.io/image/fd-tr/LH/q7ua-hero.jpg',
+      title: 'Psikopat Tavuk Dürüm',
+      description: '80 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Acı Sos',
     },
     {
-      image: 'https://harbiyiyorum.com/wp-content/uploads/C3UgNoDXUAAzPmP.jpg',
-      title: 'Ezme Nohut',
-      description: 'Yemek 2 açıklama...',
+      image: 'https://images.deliveryhero.io/image/fd-tr/LH/dtoy-hero.jpg?width=300&height=300&quality=45',
+      title: 'Zurna Tavuk Dürüm',
+      description: '95 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos',
     },
     {
-      image: 'https://cdn.getiryemek.com/products/1620124649909_1000x750.jpeg',
-      title: 'Ciğer Kavurma',
-      description: 'Yemek 2 açıklama...',
+      image: '',
+      title: 'Mozarella Zurna Dürüm',
+      description: '95 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos + Mozarella',
     },
+    
   ];
 
   return (
@@ -73,7 +75,7 @@ const App = () => {
               alt=''
               className='header-right'
             />
-            <h3 className='header-phone'>0544 444 0000</h3>
+            <h3 className='header-phone'>0342 502 2009</h3>
           </div>
 
           <nav>
@@ -109,10 +111,50 @@ const App = () => {
 
       <section id='about'>
         <div className='container'>
-          <h2>Hakkımızda</h2>
-          <p>
-            Restoranımız 20 yıldır lezzetli yemekleriyle hizmet vermektedir.
-          </p>
+          <h2>Sipariş</h2>
+          <div className='siparisContainer'>
+          <li>
+            <a
+              href="https://getir.com/yemek/restoran/ksp-doner-sahinbey-yeditepe-mah-sahinbey-gaziantep/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+              <h4>Getir</h4>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.yemeksepeti.com/restaurant/wazy/ksp-fast-food-doner"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+              <h4>Yemek Sepeti</h4>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.trendyol.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+              <h4>Trendyol </h4>
+            </a>
+          </li>
+          
+          <li>
+            <a
+              href="https://www.migros.com.tr/yemek?gclid=Cj0KCQjwgNanBhDUARIsAAeIcAsmfsQHorTssy5iXTocjlf09Q2x_pqY51g7i9tVOyl5uIEMALYIM70aAox8EALw_wcB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <BsInstagram />
+              <h4>Migros </h4>
+            </a>
+          </li>
+          </div>
         </div>
       </section>
 
@@ -130,7 +172,17 @@ const App = () => {
             <div className='footer-info'>
             <li>
             <a
-              href="https://www.instagram.com/serkandemir.2/"
+              href="phone:0551 008 1263"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdPhoneIphone />
+              <h4>Telefon</h4>
+            </a>
+          </li>
+            <li>
+            <a
+              href="https://instagram.com/kspfastfooddoner?igshid=MzRlODBiNWFlZA=="
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -140,12 +192,12 @@ const App = () => {
           </li>
           <li>
             <a
-              href="https://twitter.com/serkandemir04"
+              href="https://www.tiktok.com/@kspfastfood?_d=secCgYIASAHKAESPgo8kfPQ45tPnS7rSztyCFjeh2ujn2Idoim5o7Rimy0C7iNavHXyJShxrq%2FTKTOC6o6EbymwsmWiuvDyL4g8GgA%3D&_r=1&sec_uid=MS4wLjABAAAAdBhhTX4QCvxyE2lzx-bOwHkofFtvTBmEKENXlAmg9-uDs78U4WB9cPqZARKqRBbA&share_app_id=1233&share_author_id=7259825323691541510&share_link_id=8c97b840-8a03-4e45-98ad-9be6703b5802&sharer_language=tr&source=h5_m&timestamp=1693824473&utm_campaign=client_share&utm_medium=android&utm_source=copy"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsTwitter />
-              <h4>Twitter</h4>
+              <FaTiktok />
+              <h4>Tiktok</h4>
             </a>
           </li>  
             </div>
