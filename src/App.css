@@ -2,16 +2,9 @@ body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
-.header-right{
-  position: absolute;
-  right: 0;
-  top: 25px;
-  width: 15rem;
-  height: 8rem;
-}
+
 .header-phone{
   color: #fff;
-  position: absolute;
   right: 0;
   top: 155px;
     width: 15rem;
@@ -24,6 +17,22 @@ body, h1, h2, h3, p {
   list-style: none;
   gap: 15px;
 }
+.header-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+  .header-right{
+    right: 0;
+    top: 25px;
+    width: 15rem;
+    height: 8rem;
+  }
+
+  
+
 .logo{
   border: 3px solid #f39c12;
   width: 60px;
@@ -41,6 +50,7 @@ body {
 .headertitle{
   display: flex ;
   justify-content: center;
+  flex-direction: column;
   gap: 10px;
 }
 .container {
@@ -166,4 +176,15 @@ li {
 .siparisIcon:hover{
   transform: translateY(-5px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 600px) {
+.title{
+  font-size: 18px;
+}
+}
+.menu-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
