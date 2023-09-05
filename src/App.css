@@ -10,6 +10,7 @@ body, h1, h2, h3, p {
   height: 8rem;
 }
 .header-phone{
+  color: #fff;
   position: absolute;
   right: 0;
   top: 155px;

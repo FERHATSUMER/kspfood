@@ -5,7 +5,6 @@ import { FaTiktok  } from "react-icons/fa";
 import { MdPhoneIphone  } from "react-icons/md";
 
 
-// Diğer yemek resimlerini içe aktarın
 
 const App = () => {
   const menuItems = [
@@ -31,8 +30,7 @@ const App = () => {
       description: '80 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos Mozarella',
     },
     {
-      image:
-        '',
+      image:'https://cdn.getiryemek.com/products/1692039694958_1000x750.jpeg',
       title: 'Vejeteryan Dürüm',
       description: 'Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos',
     },
@@ -47,7 +45,7 @@ const App = () => {
       description: '95 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos',
     },
     {
-      image: '',
+      image: 'https://cdn.getiryemek.com/products/1692039694958_1000x750.jpeg',
       title: 'Mozarella Zurna Dürüm',
       description: '95 Gr. Tavuk + Patates + Kornişon Turşu + Köri Soslu Mayonez + Sos + Mozarella',
     },
@@ -75,7 +73,10 @@ const App = () => {
               alt=''
               className='header-right'
             />
-            <h3 className='header-phone'>0342 502 2009</h3>
+            <a className='header-phone' href='tel:03425022009'>
+            <h3 >0342 502 2009</h3>
+            </a>
+            
           </div>
 
           <nav>
@@ -168,9 +169,7 @@ const App = () => {
             <div className='footer-info'>
             <li>
             <a
-              href="phone:0551 008 1263"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="tel:05510081263"
             >
               <MdPhoneIphone />
               <h4>Telefon</h4>
