@@ -1,4 +1,3 @@
-
 body, h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -32,9 +31,10 @@ body, h1, h2, h3, p {
 }
 
 body {
+  color: white;
+  background-color: black;
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
 }
 
 .headertitle{
@@ -43,6 +43,7 @@ body {
   gap: 10px;
 }
 .container {
+  color: white;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -70,7 +71,8 @@ nav ul li a {
 }
 
 section {
-  background-color: white;
+  flex-basis: 320px;
+
   padding: 40px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -80,6 +82,7 @@ h2 {
   margin-bottom: 20px;
 }
 
+
 ul {
   list-style: none;
   padding: 0;
@@ -88,19 +91,18 @@ ul {
 li {
   margin-bottom: 10px;
 }
-
-#menu {
-  background-color: #f7f7f7;
-}
-
 .menu-list {
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
+
 }
 
 .menu-item {
+  background-color: white;
   border: 1px solid #ddd;
+  color: black;
   padding: 15px;
   text-align: center;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -128,7 +130,6 @@ li {
 }
 
 #contact {
-  background-color: #f7f7f7;
   text-align: center;
   padding: 40px 0;
 }
@@ -141,12 +142,12 @@ li {
 }
 
 .contact-info a {
-  color: #333;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact-info a:hover {
-  color: #f39c12;
+  color: #413c3c;
 }
 .siparisContainer{
   display: flex;
@@ -154,4 +155,14 @@ li {
   width: 25rem;
   margin-left: 27rem;
   gap: 20px;
+}
+.siparisIcon{
+  width: 85px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.siparisIcon:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

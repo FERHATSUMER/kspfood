@@ -84,7 +84,7 @@ const App = () => {
                 <a href='#menu'>Menü</a>
               </li>
               <li>
-                <a href='#about'>Hakkımızda</a>
+                <a href='#about'>Sipariş</a>
               </li>
               <li>
                 <a href='#contact'>İletişim</a>
@@ -119,8 +119,7 @@ const App = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsInstagram />
-              <h4>Getir</h4>
+              <img src='https://btm.istanbul/storage/uploads/news/1852/conversions/Getir-large.jpg' alt='getir' className='siparisIcon' />
             </a>
           </li>
           <li>
@@ -129,8 +128,7 @@ const App = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsInstagram />
-              <h4>Yemek Sepeti</h4>
+            <img src='https://seeklogo.com/images/Y/yemek-sepeti-logo-14A9709947-seeklogo.com.png' alt='yemeksepeti' className='siparisIcon' />
             </a>
           </li>
           <li>
@@ -139,8 +137,7 @@ const App = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsInstagram />
-              <h4>Trendyol </h4>
+              <img src='https://www.entegi.com/wp-content/themes/entegi/assets/src/img/brand/trendyol.png' alt='trendyol' className='siparisIcon' />
             </a>
           </li>
           
@@ -150,8 +147,7 @@ const App = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <BsInstagram />
-              <h4>Migros </h4>
+              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2UF0SgYHVCNYPLtkDgIxFQ_8nUzvZSaL9VQ&usqp=CAU' alt='migros' className='siparisIcon' />
             </a>
           </li>
           </div>
