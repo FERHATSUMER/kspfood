@@ -185,9 +185,8 @@ const App = () => {
               Adres Bilgileri: Yeditepe Mah. 85087nolu Sk. No:2B/A
               GAZİANTEP/ŞAHİNBEY
             </p>
-            <div className="footer-info">
-              <div className="footer-info">
-                <ul>
+            <div >
+                <ul className="footer-info">
                   <li>
                     <a href="tel:05510081263">
                       <MdPhoneIphone />
@@ -215,7 +214,7 @@ const App = () => {
                     </a>
                   </li>
                 </ul>
-              </div>
+              
             </div>
           </div>
         </div>
